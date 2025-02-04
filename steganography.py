@@ -31,7 +31,7 @@ def encode_message(image_path, message, output_path):
     encoded_img = Image.fromarray(encoded_pixels)
     encoded_img.save(output_path)
 
-    print(f"✅ Message successfully encoded into '{output_path}'")
+    print(f" Message successfully encoded into '{output_path}'")
 
 
 if __name__ == "__main__":
@@ -42,5 +42,5 @@ if __name__ == "__main__":
 
     # Encode the message
     encode_message(img_path, secret_msg, out_path)
-    print(f"✅ Message encoded and saved as {out_path}")
+    print(f" Message encoded and saved as {out_path}")
 
